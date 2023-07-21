@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Marcellus&family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b6cce5;
+}
+
+#header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading {
+    color: #464646;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#day-count {
+    font-family: 'Marcellus', serif;
+    font-size: 28px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-wrapper {
+    background-color: #f4f4f4;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+#img-description {
+    background-color: #e5e5e5;
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 12px;
+}
+
+@media (max-width:768px) {
+    
+    #heading {
+        font-size: 24px;
+    }
+    
+    #day-count {
+        font-size: 21px;
+    }
+    
+    #img-wrapper {
+        width: 55%;
+    }
+    
+    #img-description {
+        font-size: 15px;
+    }
+}
